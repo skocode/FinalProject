@@ -1,0 +1,32 @@
+﻿<!-- Summary:
+    This website for the Automart company offers visitors company location and available service information and allows customers to register and log in to see their vehicle maintenance history. It uses the ADO.Net Data Entities and the Automart database to retrieve and display company location and service information, as well as customer log in and vehicle service information. It also writes customer registration information into the Automart database.
+        
+Sonya Ortis, 6/8/13
+-->
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="FPMasterPage.master.cs" Inherits="FPMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="FPStyles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!-- This Master Page displays a common header to be used throughout the website -->
+        <header>
+         <img src="images/car_banner.jpg"/>
+         <h1>Automart</h1>
+         <h3>Your one stop auto shop!</h3>
+        </header>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>

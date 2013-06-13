@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c012520a2ec04376b9f869d280fed543" Name="Diagram1">
+        <EntityTypeShape EntityType="AutomartModel.AutoService" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.Location" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.RegisteredCustomer" Width="1.5" PointX="3" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.vehicle" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.Person" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.VehicleService" Width="1.5" PointX="5.25" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="AutomartModel.VehicleServiceDetail" Width="1.5" PointX="7.5" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="AutomartModel.FK__VehicleSe__AutoS__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__VehicleSe__Locat__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__Registere__Perso__1DE57479" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__vehicle__PersonK__0F975522" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK_VehicleService_vehicle" ManuallyRouted="false" />
+        <AssociationConnector Association="AutomartModel.FK__VehicleSe__Vehic__2D27B809" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
